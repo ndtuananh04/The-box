@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1678799482 source:e:\gameee\box\main.cpp
+	<SDL.h>
+	"Game.h"
+
+1678803116 e:\gameee\box\include\game.h
+	"SDL.h"
+	<vector>
+
+1678798162 source:e:\gameee\box\src\object.cpp
+	"Object.h"
+
+1678798161 e:\gameee\box\include\object.h
+
+1678840288 source:e:\gameee\box\src\game.cpp
+	"Game.h"
+	<iostream>
+	<cstdlib>
+
