@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 "# Flip-That-Box" 
 =======
-- Tên dự án: FLIP THE BOX
+- Tên dự án: FLIP THAT BOX
 - Giới thiệu:
   + Đây là một game đơn giản, bạn sẽ bắt đầu với một chiếc hộp dựng thẳng đứng ở ô xuất phát, nhiệm vụ của bạn là lật chiếc hộp đến ô đích đến với trạng thái dựng thẳng đứng.
   + Đồ họa game đang ở trạng thái 2D và được mong đợi phát triển đồ họa 3D cùng với nhiều map trong thời gian tới
