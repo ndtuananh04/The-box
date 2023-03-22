@@ -35,11 +35,17 @@
 		</Compiler>
 		<Unit filename="include/Game.h" />
 		<Unit filename="include/Object.h" />
+<<<<<<< HEAD
 		<Unit filename="include/Texture.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Game.cpp" />
 		<Unit filename="src/Object.cpp" />
 		<Unit filename="src/Texture.cpp" />
+=======
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/Object.cpp" />
+>>>>>>> f0f3dc4db31df5307efa3b4a539809abafe70438
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

@@ -47,7 +47,10 @@ bool Game::init(const char* title, int xpos, int ypos, int width, int height, in
     length=3;
     status=true;
     statuss=false;
+<<<<<<< HEAD
     TheTexture::Instance()->load("complete.png","cp",m_pRenderer);
+=======
+>>>>>>> f0f3dc4db31df5307efa3b4a539809abafe70438
     std::cout << "init success\n";
     return true;
 }
@@ -55,22 +58,32 @@ bool Game::init(const char* title, int xpos, int ypos, int width, int height, in
 void Game::render()
 {
     SDL_RenderClear(m_pRenderer);
+<<<<<<< HEAD
    /* for(int j=9;j>=0;--j){
+=======
+  /*  for(int j=9;j>=0;--j){
+>>>>>>> f0f3dc4db31df5307efa3b4a539809abafe70438
         for(int i=0;i<10;++i){
             if(px==i&&py==j) {std::cout<<2<<" ";}
             else std::cout<<maps[i][j]<<" ";
         }
         std::cout<<std::endl;
   }
+<<<<<<< HEAD
     std::cout<<"\n";
 
     /*SDL_SetRenderDrawColor(m_pRenderer, 255, 255, 255, 255);
+=======
+    std::cout<<"\n";*/
+    SDL_SetRenderDrawColor(m_pRenderer, 255, 255, 255, 255);
+>>>>>>> f0f3dc4db31df5307efa3b4a539809abafe70438
     SDL_RenderClear(m_pRenderer);
     SDL_SetRenderDrawColor(m_pRenderer,0, 0, 0, 255);
     for(int i=0; i<10; i++){
     double l=(1+i)*100;
     double x=(1000*l)/(l+500);
     SDL_RenderDrawLine(m_pRenderer,360-100*px+i*20,720-50-x,360+100*(10-px)-i*20,720-50-x);
+<<<<<<< HEAD
     }*/
 
     SDL_SetRenderDrawColor(m_pRenderer, 255, 255, 255, 255);
@@ -121,18 +134,28 @@ void Game::render()
         SDL_RenderCopy(m_pRenderer,TheTexture::Instance()->getTexture("cp"),NULL,NULL);
         // SDL_Delay(5000);
         // ++level; loadMap(level);
+=======
+>>>>>>> f0f3dc4db31df5307efa3b4a539809abafe70438
     }
     SDL_RenderPresent(m_pRenderer);
 }
 
 void Game::handleEvents()
 {
+<<<<<<< HEAD
+=======
+    bool quit = false;
+>>>>>>> f0f3dc4db31df5307efa3b4a539809abafe70438
     SDL_Event event;
     while(SDL_PollEvent(&event)!=0)
         {
         if(event.type == SDL_QUIT)
         {
+<<<<<<< HEAD
            m_bRunning=false;
+=======
+            quit=true;
+>>>>>>> f0f3dc4db31df5307efa3b4a539809abafe70438
         }
         else if(event.type == SDL_KEYDOWN)
         {
@@ -148,7 +171,11 @@ void Game::handleEvents()
             }
             else if(!status){
                 if(statuss){
+<<<<<<< HEAD
                     if(py<=9-length){
+=======
+                    if(py<9){
+>>>>>>> f0f3dc4db31df5307efa3b4a539809abafe70438
                     py+=length;
                     status=true;}
                 }
@@ -227,6 +254,10 @@ void Game::handleEvents()
         }
         }
         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> f0f3dc4db31df5307efa3b4a539809abafe70438
 }
 
 void Game::update()

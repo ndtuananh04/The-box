@@ -2,7 +2,10 @@
 #define GAME_H
 #include "SDL.h"
 #include <vector>
+<<<<<<< HEAD
 #include "Texture.h"
+=======
+>>>>>>> f0f3dc4db31df5307efa3b4a539809abafe70438
 class Game
 {
     public:

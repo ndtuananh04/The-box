@@ -1,4 +1,5 @@
 # depslib dependency file v1.0
+<<<<<<< HEAD
 1679445880 source:e:\gameee\box\main.cpp
 	<SDL.h>
 	"Game.h"
@@ -7,17 +8,31 @@
 	"SDL.h"
 	<vector>
 	"Texture.h"
+=======
+1678799482 source:e:\gameee\box\main.cpp
+	<SDL.h>
+	"Game.h"
+
+1678803116 e:\gameee\box\include\game.h
+	"SDL.h"
+	<vector>
+>>>>>>> f0f3dc4db31df5307efa3b4a539809abafe70438
 
 1678798162 source:e:\gameee\box\src\object.cpp
 	"Object.h"
 
 1678798161 e:\gameee\box\include\object.h
 
+<<<<<<< HEAD
 1679469892 source:e:\gameee\box\src\game.cpp
+=======
+1678840288 source:e:\gameee\box\src\game.cpp
+>>>>>>> f0f3dc4db31df5307efa3b4a539809abafe70438
 	"Game.h"
 	<iostream>
 	<cstdlib>
 
+<<<<<<< HEAD
 1679463636 e:\gameee\box\include\texture.h
 	<SDL.h>
 	<SDL_image.h>
@@ -31,3 +46,5 @@
 	<SDL_image.h>
 	<string>
 
+=======
+>>>>>>> f0f3dc4db31df5307efa3b4a539809abafe70438
