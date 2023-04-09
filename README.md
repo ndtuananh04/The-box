@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 "# Flip-That-Box" 
 =======
 - Tên dự án: FLIP THAT BOX
@@ -10,4 +10,4 @@
   + Tải file zip của dự án, giải nén và chạy bằng trình biên dịch
  - Cách chơi:
   + Sử dụng các phím điều hướng để lật hộp
->>>>>>> f0f3dc4db31df5307efa3b4a539809abafe70438
+-P/s: Đây không phải bài tập lớn, bài tập lớn là game Golden Bullet 
