@@ -8,6 +8,6 @@
 - Cách cài đặt:
   + Cài đặt một trình biên dịch C++ (khuyến nghị sử dụng Codeblocks)
   + Tải file zip của dự án, giải nén và chạy bằng trình biên dịch
- - Cách chơi:
+- Cách chơi:
   + Sử dụng các phím điều hướng để lật hộp
 -P/s: Đây không phải bài tập lớn, bài tập lớn là game Golden Bullet 
